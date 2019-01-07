@@ -102,6 +102,8 @@ left['Reason_for_flag']= np.where(left['Marker4']==1, 'Algorithm Step 4', left['
 
 full_dataset=left
 just_flagged_accounts=left.loc[left['Total_marker']==1]
-#pd.set_option('display.max_columns', 30);step_3_dataset;
-#pd.set_option('display.max_columns', 30);just_flagged_accounts;
+
+#show datasets
+pd.set_option('display.max_columns', 30);full_dataset;
+pd.set_option('display.max_columns', 30);just_flagged_accounts;
 
