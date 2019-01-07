@@ -1,3 +1,13 @@
+This code produces two dataframes:
+
+1. full_dataset:
+
+-full dataset with "description" and "reason for flag" columns
+
+2. just_flagged_accounts:
+
+-a subset of just flagged accounts
+
 # Task_code
 Code to tag potentially suspect accounts based on criteria 1-4:
 
